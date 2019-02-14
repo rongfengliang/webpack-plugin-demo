@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "description": "demo webpack plugin",
+  "author": "dalongrong <1141591465@qq.com>",
+  "license": "ISC",
+  "main": "lib/app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "console-webpack":"0.0.0"
+  }
+}
